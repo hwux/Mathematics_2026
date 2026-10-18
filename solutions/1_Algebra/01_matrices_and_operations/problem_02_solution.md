@@ -61,8 +61,7 @@ A+B=
 \begin{pmatrix}
 1+4 & 2+(-2) \\
 -1+0 & 3+5 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 5 & 0 \\
 -1 & 8 \\
@@ -80,8 +79,7 @@ A-B=
 \begin{pmatrix}
 1-4 & 2-(-2) \\
 -1-0 & 3-5 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 -3 & 4 \\
 -1 & -2 \\
@@ -123,8 +121,7 @@ $$
 \begin{pmatrix}
 3-8 & 6-(-4) \\
 -3-0 & 9-10 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 -5 & 10 \\
 -3 & -1 \\

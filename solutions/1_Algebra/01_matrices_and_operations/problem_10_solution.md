@@ -78,18 +78,15 @@ Ab_1=
 1 \\
 -1 \\
 3 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 1\cdot1+2\cdot(-1)+0\cdot3 \\
 0\cdot1+1\cdot(-1)+1\cdot3 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 1-2+0 \\
 0-1+3 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 -1 \\
 2 \\
@@ -110,18 +107,15 @@ Ab_2=
 2 \\
 0 \\
 1 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 1\cdot2+2\cdot0+0\cdot1 \\
 0\cdot2+1\cdot0+1\cdot1 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 2+0+0 \\
 0+0+1 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 2 \\
 1 \\

@@ -104,4 +104,3 @@ To check an index, count manually. For $a_{23}$: go to row 2 (the second horizon
 ## Oral Explanation (3 sentences)
 
 A matrix is a rectangular table of numbers, and its size is described as "rows by columns," so $A$ is $2\times 3$ because it has 2 rows and 3 columns. The entry $a_{ij}$ lives at the intersection of the $i$-th row and the $j$-th column, which is why $a_{23}$ is the number in the second row and third column, namely $5$. A row of a matrix is a horizontal list of numbers, while a column is a vertical list, and both can be treated as vectors.
-

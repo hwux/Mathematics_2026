@@ -53,13 +53,11 @@ Ax=
 \begin{pmatrix}
 2\cdot4 + (-1)\cdot2 \\
 1\cdot4 + 3\cdot2 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 8-2 \\
 4+6 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 6 \\
 10 \\
@@ -104,8 +102,7 @@ x_1\,a_1 + x_2\,a_2 = 4
 \begin{pmatrix}
 -1 \\
 3 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 8 \\
 4 \\
@@ -114,8 +111,7 @@ x_1\,a_1 + x_2\,a_2 = 4
 \begin{pmatrix}
 -2 \\
 6 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 6 \\
 10 \\
@@ -148,8 +144,7 @@ Ax = 4
 \begin{pmatrix}
 -1 \\
 3 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 6 \\
 10 \\

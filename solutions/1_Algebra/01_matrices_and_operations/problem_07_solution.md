@@ -66,13 +66,11 @@ AI=
 \begin{pmatrix}
 1 & 0 \\
 0 & 1 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 2\cdot1+1\cdot0 & 2\cdot0+1\cdot1 \\
 0\cdot1+2\cdot0 & 0\cdot0+2\cdot1 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 2 & 1 \\
 0 & 2 \\
@@ -91,13 +89,11 @@ IA=
 \begin{pmatrix}
 2 & 1 \\
 0 & 2 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 1\cdot2+0\cdot0 & 1\cdot1+0\cdot2 \\
 0\cdot2+1\cdot0 & 0\cdot1+1\cdot2 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 2 & 1 \\
 0 & 2 \\
@@ -116,8 +112,7 @@ A+0=
 \begin{pmatrix}
 2+0 & 1+0 \\
 0+0 & 2+0 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 2 & 1 \\
 0 & 2 \\
@@ -136,13 +131,11 @@ A^2=AA=
 \begin{pmatrix}
 2 & 1 \\
 0 & 2 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 4+0 & 2+2 \\
 0+0 & 0+4 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 4 & 4 \\
 0 & 4 \\
@@ -160,13 +153,11 @@ A^3=A^2 A=
 \begin{pmatrix}
 2 & 1 \\
 0 & 2 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 8+0 & 4+8 \\
 0+0 & 0+8 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 8 & 12 \\
 0 & 8 \\

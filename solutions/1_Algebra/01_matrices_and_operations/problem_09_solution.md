@@ -63,13 +63,11 @@ Sx=
 \begin{pmatrix}
 1 \\
 2 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 2\cdot1+0\cdot2 \\
 0\cdot1+1\cdot2 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 2 \\
 2 \\
@@ -89,13 +87,11 @@ RSx=
 \begin{pmatrix}
 2 \\
 2 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 0\cdot2+(-1)\cdot2 \\
 1\cdot2+0\cdot2 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 -2 \\
 2 \\
@@ -117,13 +113,11 @@ Rx=
 \begin{pmatrix}
 1 \\
 2 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 0\cdot1+(-1)\cdot2 \\
 1\cdot1+0\cdot2 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 -2 \\
 1 \\
@@ -143,13 +137,11 @@ SRx=
 \begin{pmatrix}
 -2 \\
 1 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 2\cdot(-2)+0\cdot1 \\
 0\cdot(-2)+1\cdot1 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 -4 \\
 1 \\
@@ -205,8 +197,7 @@ RS=
 \begin{pmatrix}
 2 & 0 \\
 0 & 1 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 0 & -1 \\
 2 & 0 \\
@@ -226,8 +217,7 @@ SR=
 \begin{pmatrix}
 0 & -1 \\
 1 & 0 \\
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 0 & -2 \\
 1 & 0 \\
