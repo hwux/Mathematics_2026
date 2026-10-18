@@ -171,7 +171,14 @@ AB=
 \end{pmatrix}.
 $$
 
-The identity $(AB)^T = B^T A^T$ holds: both sides equal $\begin{pmatrix}2 & 8 \\ 11 & 23\end{pmatrix}$.
+The identity $(AB)^T = B^T A^T$ holds: both sides equal
+
+$$
+\begin{pmatrix}
+2 & 8 \\
+11 & 23 \\
+\end{pmatrix}.
+$$
 
 ---
 

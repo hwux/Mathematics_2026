@@ -106,8 +106,7 @@ x_1\,a_1 + x_2\,a_2 = 4
 \begin{pmatrix}
 8 \\
 4 \\
-\end{pmatrix}
-+
+\end{pmatrix} +
 \begin{pmatrix}
 -2 \\
 6 \\

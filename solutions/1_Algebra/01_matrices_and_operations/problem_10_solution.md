@@ -154,9 +154,9 @@ $$
 
 **Step 5 — Compare and explain.**
 
-The first column of $AB$ is $\begin{pmatrix}-1\\2\end{pmatrix}$, which equals $Ab_1$.
+The first column of $AB$ is $(-1,\,2)^T$, which equals $Ab_1$.
 
-The second column of $AB$ is $\begin{pmatrix}2\\1\end{pmatrix}$, which equals $Ab_2$.
+The second column of $AB$ is $(2,\,1)^T$, which equals $Ab_2$.
 
 *Why this is always true:* Column $j$ of $AB$ is computed from the $j$-th column of $B$ alone. When carrying out the full matrix multiplication, the entries in row $i$, column $j$ of $AB$ depend only on row $i$ of $A$ and column $j$ of $B$. Assembling column $j$ for all rows $i$ at once is exactly the computation $Ab_j$. Therefore
 

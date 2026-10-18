@@ -31,7 +31,7 @@ We want to know, for each pair of matrices, whether the multiplication can be pe
 A helpful way to remember: write the sizes side by side. If the inner numbers match, the product exists; the outer numbers give the result size.
 
 $$
-\underbrace{P}_{m\times k}\;\underbrace{Q}_{k\times n} \;\Longrightarrow\; PQ \text{ is } m\times n.
+\underbrace{P}_{m\times k}\;\underbrace{Q}_{k\times n} \;\Longrightarrow\; PQ \;\mathrm{is}\; m\times n.
 $$
 
 ---

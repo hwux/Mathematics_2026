@@ -63,13 +63,12 @@ Locate each entry by moving to the row given by the first index and the column g
 The second row of $A$ consists of the three entries in row 2, read left to right:
 
 $$
-\text{Row 2 of } A = (0,\ 4,\ 5).
+(0,\ 4,\ 5).
 $$
 
 The first column of $B$ consists of the three entries in column 1, read top to bottom:
 
 $$
-\text{Column 1 of } B =
 \begin{pmatrix}
 1 \\
 -2 \\

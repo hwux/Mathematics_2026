@@ -204,7 +204,15 @@ $$
 
 ## Final Answer in Words
 
-$AI = IA = A$ and $A + 0 = A$, confirming that $I$ is the neutral element for multiplication and $0$ is the neutral element for addition. The powers follow the pattern $A^n = \begin{pmatrix} 2^n & n\cdot2^{n-1} \\ 0 & 2^n \end{pmatrix}$.
+$AI = IA = A$ and $A + 0 = A$, confirming that $I$ is the neutral element for multiplication and $0$ is the neutral element for addition. The powers follow the pattern
+
+$$
+A^n=
+\begin{pmatrix}
+2^n & n\cdot2^{n-1} \\
+0 & 2^n \\
+\end{pmatrix}.
+$$
 
 ---
 
@@ -218,7 +226,16 @@ Also verify $A^2$ from the formula: diagonal $=4$, top-right $= 2\cdot2 = 4$, co
 
 ## Common Mistakes
 
-- **Squaring entry by entry:** $A^2 \neq \begin{pmatrix}4&1\\0&4\end{pmatrix}$. Powers use matrix multiplication, not entry-wise squaring.
+- **Squaring entry by entry:** entry-wise squaring would give
+
+  $$
+  \begin{pmatrix}
+  4 & 1 \\
+  0 & 4 \\
+  \end{pmatrix}
+  $$
+
+  but $A^2$ is not that. Powers use matrix multiplication, not entry-wise squaring.
 - **Assuming $AI \neq IA$:** unlike general matrix products, $I$ commutes with every square matrix of the same size.
 - **Failing to see the pattern:** compute a few powers before guessing the general formula, and always verify the formula for at least one additional value of $n$.
 
