@@ -93,28 +93,10 @@ The entries of $x$ are $x_1=4$ and $x_2=2$.
 **Step 3 — Form the linear combination.**
 
 $$
-x_1\,a_1 + x_2\,a_2 = 4
-\begin{pmatrix}
-2 \\
-1 \\
-\end{pmatrix}
-+ 2
-\begin{pmatrix}
--1 \\
-3 \\
-\end{pmatrix} =
-\begin{pmatrix}
-8 \\
-4 \\
-\end{pmatrix} +
-\begin{pmatrix}
--2 \\
-6 \\
-\end{pmatrix} =
-\begin{pmatrix}
-6 \\
-10 \\
-\end{pmatrix}.
+x_1\,a_1 + x_2\,a_2
+= 4\begin{pmatrix} 2 \\ 1 \\ \end{pmatrix} + 2\begin{pmatrix} -1 \\ 3 \\ \end{pmatrix}
+= \begin{pmatrix} 8 \\ 4 \\ \end{pmatrix} + \begin{pmatrix} -2 \\ 6 \\ \end{pmatrix}
+= \begin{pmatrix} 6 \\ 10 \\ \end{pmatrix}.
 $$
 
 *Why valid:* Scalar multiplication scales each entry of the column, and vector addition adds entry by entry. The result equals $Ax$ computed in Step 1, confirming that both views are equivalent.
@@ -134,20 +116,7 @@ $$
 As a linear combination of the columns of $A$:
 
 $$
-Ax = 4
-\begin{pmatrix}
-2 \\
-1 \\
-\end{pmatrix}
-+ 2
-\begin{pmatrix}
--1 \\
-3 \\
-\end{pmatrix} =
-\begin{pmatrix}
-6 \\
-10 \\
-\end{pmatrix}.
+Ax = 4\begin{pmatrix} 2 \\ 1 \\ \end{pmatrix} + 2\begin{pmatrix} -1 \\ 3 \\ \end{pmatrix} = \begin{pmatrix} 6 \\ 10 \\ \end{pmatrix}.
 $$
 
 The entry $x_1=4$ tells us how much of the first column to take, and $x_2=2$ tells us how much of the second column to take.

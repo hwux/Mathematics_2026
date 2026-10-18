@@ -226,16 +226,7 @@ Also verify $A^2$ from the formula: diagonal $=4$, top-right $= 2\cdot2 = 4$, co
 
 ## Common Mistakes
 
-- **Squaring entry by entry:** entry-wise squaring would give
-
-  $$
-  \begin{pmatrix}
-  4 & 1 \\
-  0 & 4 \\
-  \end{pmatrix}
-  $$
-
-  but $A^2$ is not that. Powers use matrix multiplication, not entry-wise squaring.
+- **Squaring entry by entry:** $A^2$ is not obtained by squaring each entry individually (which would incorrectly yield diagonal entries $4, 4$ and off-diagonal $1, 0$). Matrix powers must always be computed using standard matrix multiplication $AA$.
 - **Assuming $AI \neq IA$:** unlike general matrix products, $I$ commutes with every square matrix of the same size.
 - **Failing to see the pattern:** compute a few powers before guessing the general formula, and always verify the formula for at least one additional value of $n$.
 
