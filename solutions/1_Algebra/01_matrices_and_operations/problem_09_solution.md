@@ -16,7 +16,8 @@ S=
 \end{pmatrix}.
 $$
 
-The matrix $S$ describes nonuniform scaling (it doubles the $x$-component and leaves the $y$-component unchanged), while $R$ describes a $90^\circ$ counterclockwise rotation. For
+The matrix $S$ describes nonuniform scaling, while $R$ describes a $90^\circ$ counterclockwise rotation.
+For
 
 $$
 x=
@@ -44,7 +45,7 @@ We want to apply two geometric transformations to the same vector in two differe
 
 **Nonuniform scaling:** The matrix $S$ doubles the $x$-component and keeps the $y$-component, mapping $(a,b)^T$ to $(2a,b)^T$.
 
-Because $S$ and $R$ are not inverses of each other, the operations do not commute — applying them in different orders produces different results.
+Matrix multiplication is not commutative in general, so $RSx$ and $SRx$ may differ. Whether they differ for this particular pair is decided by computing both.
 
 ---
 
@@ -174,7 +175,7 @@ The two results are different.
 
 **$SRx$:** Start with $(1,2)^T$. Rotate first: the vector swings $90^\circ$ counterclockwise, landing at $(-2,1)^T$, which now points mostly in the negative $x$-direction. Then scaling doubles the $x$-component (which is negative), giving $(-4,1)^T$.
 
-The scaling doubles the $x$-component before or after the rotation — but "before" and "after" refer to different geometric directions once the vector has been rotated. This is why the order matters: the scaling axis is fixed in space, but the vector's orientation relative to that axis changes depending on whether the rotation has already occurred.
+The scaling always stretches along the fixed horizontal axis. In $RSx$ it stretches the original horizontal component $1$ of $x$, which becomes $2$. In $SRx$ the rotation has already moved the original vertical component $2$ onto the horizontal axis (as $-2$), so the scaling stretches that component instead, giving $-4$. The two orders stretch different parts of the original vector, which is why the results differ.
 
 ---
 
@@ -232,7 +233,7 @@ Apply to $x$: $(0\cdot1+(-2)\cdot2,\;1\cdot1+0\cdot2)^T = (-4,1)^T$. Matches Ste
 
 - **Thinking the rightmost matrix acts last:** in $RSx$, read right to left — $S$ acts first on $x$, then $R$ acts on the result.
 - **Assuming geometric transformations always commute:** this example is a direct counterexample. Rotation and scaling along fixed axes generally do not commute.
-- **Computing $RS$ and $SR$ without applying to a vector:** the products $RS$ and $SR$ already differ as matrices, which can be confirmed by comparing them directly.
+- **Multiplying the matrices in the wrong order:** computing $SR$ when $RSx$ is required gives the matrix of the other composition and therefore the wrong vector.
 
 ---
 

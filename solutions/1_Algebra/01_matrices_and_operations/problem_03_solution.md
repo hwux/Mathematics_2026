@@ -75,7 +75,7 @@ For each product, write the sizes of the two factors side by side and check whet
 | $AD$ | $3 \neq 2$ | No | — |
 | $DA$ | $2 = 2$ | Yes | $2\times3$ |
 
-Five products are defined and three are not.
+Four products are defined ($AB$, $BC$, $CA$, $DA$) and four are not ($BA$, $CB$, $AC$, $AD$).
 
 ---
 

@@ -188,9 +188,9 @@ A^3=
 \end{pmatrix}.
 $$
 
-The diagonal entries are $2^n$ in $A^n$. The off-diagonal entry (top-right) is $n\cdot 2^{n-1}$: for $n=1$ it is $1$, for $n=2$ it is $4$, for $n=3$ it is $12$. The bottom-left entry stays $0$ because the lower-triangular structure is preserved under multiplication.
+The diagonal entries are $2^n$ in $A^n$. The off-diagonal entry (top-right) is $n\cdot 2^{n-1}$: for $n=1$ it is $1$, for $n=2$ it is $4$, for $n=3$ it is $12$. The bottom-left entry stays $0$ because the product of two upper-triangular matrices is again upper-triangular.
 
-The general formula is
+These three cases suggest the general formula
 
 $$
 A^n=
@@ -218,9 +218,29 @@ $$
 
 ## Quick Verification
 
-Check $A^3$ using the formula: diagonal entries $= 2^3 = 8$; top-right entry $= 3\cdot2^2 = 12$; bottom-left $= 0$. This matches the directly computed $A^3$ above.
+The cases $n=1,2,3$ were used to find the formula, so checking them again proves nothing. Test a new case instead, $n=4$:
 
-Also verify $A^2$ from the formula: diagonal $=4$, top-right $= 2\cdot2 = 4$, confirmed.
+$$
+A^4=A^3 A=
+\begin{pmatrix}
+8 & 12 \\
+0 & 8 \\
+\end{pmatrix}
+\begin{pmatrix}
+2 & 1 \\
+0 & 2 \\
+\end{pmatrix} =
+\begin{pmatrix}
+16 & 8+24 \\
+0 & 16 \\
+\end{pmatrix} =
+\begin{pmatrix}
+16 & 32 \\
+0 & 16 \\
+\end{pmatrix}.
+$$
+
+The formula predicts diagonal entries $2^4=16$ and top-right entry $4\cdot2^3=32$. Confirmed.
 
 ---
 
