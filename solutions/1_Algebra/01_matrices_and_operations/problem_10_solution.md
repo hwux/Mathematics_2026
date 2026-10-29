@@ -17,7 +17,7 @@ A=
 \end{pmatrix}.
 $$
 
-Denote the columns of $B$ by $b_1, b_2$.
+Denote the columns of $B$ by $b_1,b_2$.
 
 1. Compute $Ab_1$ and $Ab_2$.
 2. Compute the matrix $AB$.

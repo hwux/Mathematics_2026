@@ -20,7 +20,7 @@ $$
 compute $A^T$, $B^T$, and $AB$. Then verify in this example that
 
 $$
-(AB)^T = B^T A^T.
+(AB)^T=B^TA^T.
 $$
 
 ---
