@@ -62,7 +62,15 @@ $$
 
 ## Interpretation
 
-The point starts at $2$ moving forward, slows down and stops at position $6$ at $t=1$, then moves backward and stops again at position $2$ at $t=3$, after which it moves forward for good. The acceleration $6t-12$ is negative before $t=2$ and positive after, so the point brakes until $t=2$ (when it moves backward fastest, $v(2)=-3$) and then accelerates in the positive direction.
+The point starts at $2$ moving forward, slows down and stops at position $6$ at $t=1$, then moves backward and stops again at position $2$ at $t=3$, after which it moves forward for good. The point speeds up when $v$ and $a$ have the same sign and slows down when they have opposite signs. With $a(t)=6t-12$:
+
+| interval | $(0,1)$ | $(1,2)$ | $(2,3)$ | $(3,\infty)$ |
+|---|---|---|---|---|
+| $v$ | $+$ | $-$ | $-$ | $+$ |
+| $a$ | $-$ | $-$ | $+$ | $+$ |
+| motion | forward, slowing down | backward, speeding up | backward, slowing down | forward, speeding up |
+
+So the backward speed is greatest at $t=2$, where $v(2)=-3$ and the acceleration changes sign; after that the point brakes until it stops at $t=3$.
 
 ---
 
@@ -82,7 +90,7 @@ Displacement between the stops: $s(3)-s(1)=2-6=-4$, negative, consistent with ba
 
 - **Treating $s$ as the velocity:** the sign of $s$ is the position, not the direction of motion.
 - **Missing $t=1$ or $t=3$:** both zeros of $v$ are stops.
-- **Confusing "stops" with "a=0":** at $t=2$ the acceleration is zero, but the point is moving.
+- **Confusing a stop with $a=0$:** at $t=2$ the acceleration is zero, but the point is moving.
 
 ---
 
